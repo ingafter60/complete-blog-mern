@@ -1,11 +1,11 @@
 import React from 'react';
-import MainHeader from '../components/main/MainHeader';
-import MainSlider from '../components/main/MainSlider';
-import MainTrendingPosts from '../components/main/MainTrendingPosts';
-import MainFreshStories from '../components/main/MainFreshStories';
-import MainAd from '../components/main/MainAd';
+import MainHeader from '../components/home/main/MainHeader';
+import MainSlider from '../components/home/main/MainSlider';
+import MainTrendingPosts from '../components/home/main/MainTrendingPosts';
+import MainFreshStories from '../components/home/main/MainFreshStories';
+import MainAd from '../components/home/main/MainAd';
 import MainLatestArticles from '../components/main/MainLatestArticles';
-import MainFooter from '../components/main/MainFooter';
+import MainFooter from '../components/home/main/MainFooter';
 
 const PagesHome = () => {
 	return(
