@@ -18,8 +18,8 @@ const SubHeaderNavbar = () => {
 					<ul className="navbar-nav m-auto">
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/category">All Post</Link></li>
-						<li><Link to="/single">Category 1</Link></li>
-						<li><Link to="/single">Category 1</Link></li>
+						<li><Link to="/single">Single</Link></li>
+						<li><Link to="/404">404</Link></li>
 					</ul>
 					<ul className="navbar-nav ml-auto social-list">
 						<li><Link to="#"><i className="fa fa-facebook"></i></Link></li>
