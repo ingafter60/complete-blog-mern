@@ -15,7 +15,7 @@ const Main404 = () => {
 						<h1>404</h1>
 						<h2>Page Not Found</h2>
 						<p>We are sorry. But the page you are looking for cannot be found. </p>
-						<Link to="/"><a className="button-one"> Go To HomePage</a></Link>
+						<Link className="button-one" to="/">Go To HomePage</Link>
 					</div>
 				</div>
 			</section>
