@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MainHeader = () => {
+const MainFreshStories = () => {
 	return(
 		<section className="fresh-section on-trend-mode">
 			<div className="container">
@@ -69,4 +69,4 @@ const MainHeader = () => {
 	)
 }
 
-export default MainHeader;
+export default MainFreshStories;

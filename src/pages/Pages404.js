@@ -1,14 +1,14 @@
 import React from 'react';
-import MainHeader from '../components/home/main/MainHeader';
+import MainSharedHeader from '../components/shared/main/MainSharedHeader';
 import Main404 from '../components/404/main/Main404';
-import MainFooter from '../components/home/main/MainFooter';
+import MainSharedFooter from '../components/shared/main/MainSharedFooter';
 
 const Pages404 = () => {
 	return(
 		<>
-			<MainHeader />
+			<MainSharedHeader />
 			<Main404 />
-			<MainFooter />
+			<MainSharedFooter />
 		</>
 	)
 }

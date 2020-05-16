@@ -1,7 +1,7 @@
 import React from 'react';
-import SubHeaderNavbar from '../sub/SubHeaderNavbar';
+import SubSharedHeaderNavbar from '../sub/SubSharedHeaderNavbar';
 
-const MainHeader = () => {
+const MainSharedHeader = () => {
 	return(
 		<header className="clearfix header-style5">
 			<div className="logo-place">
@@ -14,9 +14,9 @@ const MainHeader = () => {
 				</div>
 			</div>
 
-			<SubHeaderNavbar />
+			<SubSharedHeaderNavbar />
 		</header>
 	)
 }
 
-export default MainHeader;
+export default MainSharedHeader;

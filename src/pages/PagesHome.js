@@ -1,22 +1,22 @@
 import React from 'react';
-import MainHeader from '../components/home/main/MainHeader';
+import MainSharedHeader from '../components/shared/main/MainSharedHeader';
 import MainSlider from '../components/home/main/MainSlider';
 import MainTrendingPosts from '../components/home/main/MainTrendingPosts';
 import MainFreshStories from '../components/home/main/MainFreshStories';
 import MainAd from '../components/home/main/MainAd';
 import MainLatestArticles from '../components/home/main/MainLatestArticles';
-import MainFooter from '../components/home/main/MainFooter';
+import MainSharedFooter from '../components/shared/main/MainSharedFooter';
 
 const PagesHome = () => {
 	return(
 		<>
-			<MainHeader />
+			<MainSharedHeader />
 			<MainSlider />
 			<MainTrendingPosts />
 			<MainFreshStories />
 			<MainAd />
 			<MainLatestArticles />
-			<MainFooter />
+			<MainSharedFooter />
 		</>
 	)
 }

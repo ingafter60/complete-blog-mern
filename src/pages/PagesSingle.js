@@ -1,14 +1,13 @@
 import React from 'react';
-import MainHeader from '../components/home/main/MainHeader';
+import MainSharedHeader from '../components/shared/main/MainSharedHeader';
 import MainSingle from '../components/single/main/MainSingle';
-import MainFooter from '../components/home/main/MainFooter';
-
+import MainSharedFooter from '../components/shared/main/MainSharedFooter';
 const PagesSingle = () => {
 	return(
 		<>
-			<MainHeader />
+			<MainSharedHeader />
 			<MainSingle />
-			<MainFooter />
+			<MainSharedFooter />
 		</>
 	)
 }
